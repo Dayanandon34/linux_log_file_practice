@@ -1,0 +1,31 @@
+
+Mar  3 12:00:01 localhost CRON[12345]: (root) CMD (/usr/bin/some-script.sh)
+Mar  3 12:05:12 localhost systemd[1]: Started Session 12345 of user root.
+Mar  3 12:06:45 localhost kernel: [12345.678901] [UFW BLOCK] IN=eth0 OUT= MAC=00:1a:2b:3c:4d:5e:6f:7g:8h:9i:10j:11k SRC=192.168.1.1 DST=192.168.1.100 LEN=60
+Mar  3 12:10:22 localhost sshd[12346]: Accepted password for user1 from 192.168.1.101 port 22 ssh2
+Mar  3 12:12:30 localhost sudo[12347]: root : TTY=tty1 ; PWD=/home/root ; USER=root ; COMMAND=/bin/ls
+Mar  3 12:15:01 localhost CRON[12348]: (root) CMD (/usr/bin/another-script.sh)
+Mar  3 12:17:45 localhost systemd[1]: Stopping User Slice of root.
+Mar  3 12:18:05 localhost systemd[1]: Started Session 12346 of user root.
+Mar  3 12:20:03 localhost dbus-daemon[12349]: [system] Activating service name='org.freedesktop.hostname1' requested by ':1.2' (uid=1000 pid=12350 comm="gnome-shell " label="unconfined")
+Mar  3 12:22:59 localhost kernel: [12345.678901] audit: type=1400 audit(1614761979.123:67): apparmor="DENIED" operation="open" profile="/usr/bin/ls" name="/etc/passwd" pid=12348 comm="ls" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Mar  3 12:00:01 localhost CRON[12345]: (root) CMD (/usr/bin/some-script.sh)
+Mar  3 12:05:12 localhost systemd[1]: Started Session 12345 of user root.
+Mar  3 12:06:45 localhost kernel: [12345.678901] [UFW BLOCK] IN=eth0 OUT= MAC=00:1a:2b:3c:4d:5e:6f:7g:8h:9i:10j:11k SRC=192.168.1.1 DST=192.168.1.100 LEN=60
+Mar  3 12:10:22 localhost sshd[12346]: Accepted password for user1 from 192.168.1.101 port 22 ssh2
+Mar  3 12:12:30 localhost sudo[12347]: root : TTY=tty1 ; PWD=/home/root ; USER=root ; COMMAND=/bin/ls
+Mar  3 12:15:01 localhost CRON[12348]: (root) CMD (/usr/bin/another-script.sh)
+Mar  3 12:17:45 localhost systemd[1]: Stopping User Slice of root.
+Mar  3 12:18:05 localhost systemd[1]: Started Session 12346 of user root.
+Mar  3 12:20:03 localhost dbus-daemon[12349]: [system] Activating service name='org.freedesktop.hostname1' requested by ':1.2' (uid=1000 pid=12350 comm="gnome-shell " label="unconfined")
+Mar  3 12:22:59 localhost kernel: [12345.678901] audit: type=1400 audit(1614761979.123:67): apparmor="DENIED" operation="open" profile="/usr/bin/ls" name="/etc/passwd" pid=12348 comm="ls" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Mar  3 12:00:01 localhost CRON[12345]: (root) CMD (/usr/bin/some-script.sh)
+Mar  3 12:05:12 localhost systemd[1]: Started Session 12345 of user root.
+Mar  3 12:06:45 localhost kernel: [12345.678901] [UFW BLOCK] IN=eth0 OUT= MAC=00:1a:2b:3c:4d:5e:6f:7g:8h:9i:10j:11k SRC=192.168.1.1 DST=192.168.1.100 LEN=60
+Mar  3 12:10:22 localhost sshd[12346]: Accepted password for user1 from 192.168.1.101 port 22 ssh2
+Mar  3 12:12:30 localhost sudo[12347]: root : TTY=tty1 ; PWD=/home/root ; USER=root ; COMMAND=/bin/ls
+Mar  3 12:15:01 localhost CRON[12348]: (root) CMD (/usr/bin/another-script.sh)
+Mar  3 12:17:45 localhost systemd[1]: Stopping User Slice of root.
+Mar  3 12:18:05 localhost systemd[1]: Started Session 12346 of user root.
+Mar  3 12:20:03 localhost dbus-daemon[12349]: [system] Activating service name='org.freedesktop.hostname1' requested by ':1.2' (uid=1000 pid=12350 comm="gnome-shell " label="unconfined")
+Mar  3 12:22:59 localhost kernel: [12345.678901] audit: type=1400 audit(1614761979.123:67): apparmor="DENIED" operation="open" profile="/usr/bin/ls" name="/etc/passwd" pid=12348 comm="ls" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
